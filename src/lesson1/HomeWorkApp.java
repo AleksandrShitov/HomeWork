@@ -1,6 +1,9 @@
 package lesson1;
 
+
+
 public class HomeWorkApp {
+
     public static void main(String[] args) {
 
         printThreeWords();
@@ -22,9 +25,9 @@ public class HomeWorkApp {
         int b = -2;
 
         if ((a + b) >= 0) {
-            System.out.println("РЎСѓРјРјР° РїРѕР»РѕР¶РёС‚РµР»СЊРЅР°СЏ");
+            System.out.println("Сумма положительная");
         } else {
-            System.out.println("РЎСѓРјРјР° РѕС‚СЂРёС†Р°С‚РµР»СЊРЅР°СЏ");
+            System.out.println("Сумма отрицательная");
         }
 
     }
@@ -33,11 +36,11 @@ public class HomeWorkApp {
         int value = 45;
 
         if (value <= 0) {
-            System.out.println("РљСЂР°СЃРЅС‹Р№");
+            System.out.println("Красный");
         } else if ((value > 0) && (value <= 100)) {
-            System.out.println("Р–РµР»С‚С‹Р№");
+            System.out.println("Желтый");
         } else { /*value > 100*/
-            System.out.println("Р—РµР»РµРЅС‹Р№");
+            System.out.println("Зеленый");
         }
     }
 
@@ -51,4 +54,5 @@ public class HomeWorkApp {
             System.out.println("a < b");
         }
     }
+
 }
